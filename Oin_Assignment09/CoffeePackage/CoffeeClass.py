@@ -8,7 +8,7 @@ Semester/Year: Fall 2022
 Description: This assignment shows that I work with a team on Github
 '''
 
-class Coffee(drink):
+class Coffee():
     def __init__(self, size, blend, price):
         print("Coffee.__init__()")
         self.size = size
