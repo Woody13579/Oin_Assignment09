@@ -1,6 +1,6 @@
 # CoffeeClass
 '''
-Name: Oin
+Name: Noah Draper
 Assignment: Assignment 09
 Course: IS 4010
 Semester/Year: Fall 2022
@@ -24,7 +24,7 @@ class Pastry():
         else:
             self.type = type   
     #  without a barcode.
-    def __init__(self, barcode, name, price, type):
+    def __init__(self, barcode, price, type):
         self.barcode = barcode  # store the barcode in the current object
         self.validatePrice(price)
         self.validateBrand(type)

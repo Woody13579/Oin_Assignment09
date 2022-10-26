@@ -24,4 +24,6 @@ class Coffee():
     def __str__(self):
         print("Coffee.__str__()")
         return super().__str__() + ", size = " + self.size + ", blend = " + self.blend + ", price = " + self.price
-     
+    def __repr__(self):
+        print("Coffee.__str__()")
+        return super().__str__() + ", size = " + self.size + ", blend = " + self.blend + ", price = " + self.price
